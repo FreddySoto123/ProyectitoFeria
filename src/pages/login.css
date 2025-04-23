@@ -70,11 +70,11 @@
 .welcome-title {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #083C5A;
+    color: #ffff;
 }
 
 .welcome-subtitle {
-    color: #6B7280;
+    color: #C59F20;
     margin-top: 0.5rem;
 }
 
@@ -94,7 +94,7 @@
     display: flex;
     font-size: 0.875rem;
     font-weight: 500;
-    color: #083C5A;
+    color: #C59F20;
     align-items: start;
 }
 
@@ -151,7 +151,7 @@
     border-radius: 0.5rem;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     background-color: #083C5A;
-    color: white;
+    color: #C59F20;
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.2s;

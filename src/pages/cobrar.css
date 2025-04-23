@@ -1,0 +1,64 @@
+/* Estilo general del formulario */
+.form-container {
+    background-color: #0d5077;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form-title {
+    color: #fff;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form label {
+    color: #C59F20;
+    margin-bottom: 0.3rem;
+  }
+  
+  .form input {
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 2px #0b364e solid;
+    border-radius: 4px;
+    background-color: #fff;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .form input:focus {
+    outline: 2px solid #ffc107;
+  }
+  
+  .submit-btn {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: fit-content;
+    align-self: center;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Ajuste de layout */
+  .main-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  
